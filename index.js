@@ -28,7 +28,7 @@ const userSchema = new mongoose.Schema({
   caliberSlots: { type: Number, default: 20 }       // ➕ нове поле
 });
 
-const User = mongoose.model('User', userSchema);
+const User = mongoose.connection.useDb("space-dash-db").model('User', userSchema);
 
 // ✅ Registration
 app.post('/register', async (req, res) => {
