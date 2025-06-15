@@ -1,10 +1,10 @@
 {
   "name": "space-dash-server",
   "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "main": "index.js",
+"scripts": {
+  "start": "node index.js"
+},
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
