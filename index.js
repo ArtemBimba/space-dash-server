@@ -9,7 +9,7 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-const uri = "mongodb+srv://deepeetechnologyx:Artem1911@spacedashcluster.ickrydf.mongodb.net/?retryWrites=true&w=majority&appName=SpaceDashCluster";
+const uri = "mongodb+srv://deepeetechnologyx:Artem1911@spacedashcluster.ickrydf.mongodb.net/space-dash-db?retryWrites=true&w=majority&appName=SpaceDashCluster";
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
